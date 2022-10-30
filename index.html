@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<body>
+</body>
+<html lang="zh-CN">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>GG的起始页</title>
+    <meta name="keywords" content="GG的起始页">
+    <meta name="description" content="GG的起始页">
+    <meta name="author" content="GG的起始页">
+    <meta name="baidu-site-verification" content="code-vIivd4QsAU">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel='stylesheet' id='iconfont-css' href='static/css/iconfont.css' type='text/css' media='all'>
+    <link rel='stylesheet' id='bootstrap-css' href='static/css/bootstrap.min.css' type='text/css' media='all'>
+    <link rel='stylesheet' id='style-css' href='static/css/style.min.css' type='text/css' media='all'>
+    <script src='static/js/jquery.min.js' id='jquery-js'></script>
+</head>
+<body class="user-bookmark-body bookmark-default">
+<div id="loading">
+    <div id="preloader_3"></div>
+</div>
+<div class="page-container">
+    <div class="bookmark-bg">
+        <div class="img-bg" id="img-bg"></div>
+        <div class="gradient-linear"></div>
+    </div>
+    <header class="navbar navbar-dark fixed-top">
+        <div class="weather">
+            <div id="he-plugin-simple" style="display: contents;"></div>
+            <script>
+                WIDGET = {
+                    "CONFIG": {
+                        "modules": "02",
+                        "background": "5",
+                        "tmpColor": "FFFFFF",
+                        "tmpSize": "20",
+                        "cityColor": "FFFFFF",
+                        "citySize": "16",
+                        "aqiColor": "FFFFFF",
+                        "aqiSize": "16",
+                        "weatherIconSize": "30",
+                        "alertIconSize": "18",
+                        "padding": "0px 5px 0px 5px",
+                        "shadow": "0",
+                        "language": "auto",
+                        "fixed": "false",
+                        "vertical": "top",
+                        "horizontal": "left",
+                        "key": "257fe54e3a0b4cd29b399d2831bd56e0"
+                    }
+                }
+            </script>
+            <script src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0" defer=""></script>
+        </div>
+    </header>
+    <div class="header-big mb-4">
+        <div class="s-search">
+            <div id="search" class="s-search mx-auto">
+                <div class="big-title text-center mb-3 mb-md-5 mt-2">
+                    <p class="h1" style="letter-spacing: 6px;">GG的起始页</p>
+                </div>
+                <div id="search-list-menu" class="hide-type-list">
+                    <div class="s-type text-center overflow-x-auto">
+                        <div class="s-type-list big">
+                            <div class="anchor" style="position: absolute; left: 50%; opacity: 0;"></div>
+                            <label for="type-baidu1" class="active" data-id="group-b"><span>搜索</span></label>
+                </div>
+                <form action="/search.html?key=" method="get" target="_blank" class="super-search-fm">
+                    <input type="text" id="search-text" class="form-control smart-tips search-key" zhannei="" placeholder="输入关键字搜索" style="outline:0" autocomplete="off">
+                    <button type="submit"><i class="iconfont icon-search"></i></button>
+                </form>
+                <div id="search-list" class="hide-type-list">
+                    <div class="search-group group-b s-current">
+                        <ul class="search-type">
+                            <li><input checked="checked" hidden="" type="radio" name="type" id="type-baidu1" value="https://www.baidu.com/s?wd=" data-placeholder="<(￣︶￣)↗[GO!]"><label for="type-baidu1"><span class="text-muted">百度</span></label></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card search-smart-tips" style="display: none">
+                    <ul></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="main-footer footer-type-1 position-relative text-xs">
+        <div id="footer-tools" class="d-flex flex-column">
+            <a href="javascript:" id="go-to-up" class="btn rounded-circle go-up m-1" rel="go-top">
+                <i class="iconfont icon-to-up"></i>
+            </a>
+
+        </div>
+        <div class="footer-inner text-center text-light my-3">
+            <div class="footer-text">
+                Copyright © 2022 <a href="https://space.bilibili.com/1641792821?spm_id_from=333.1007.0.0" target="_blank" title="GG的启动页"><strong>Gqi.bilibili</strong></a> Design by <strong>snail</strong>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="static/js/bing.js"></script>
+<script src="static/js/popper.min.js"></script>
+<script src='static/js/bootstrap.min.js' id='bootstrap-js'></script>
+<script src="static/js/theia-sticky-sidebar.js"></script>
+<script src='static/js/lazyload.min.js' id='lazyload-js'></script>
+<script src='static/js/app.min.js' id='appjs-js'></script>
+<script>
+    $(document).ready(function () {
+        var siteWelcome = $('#loading');
+        siteWelcome.addClass('close');
+        setTimeout(function () {
+            siteWelcome.remove();
+        }, 600);
+    });
+</script>
+
+</body>
+</html>
